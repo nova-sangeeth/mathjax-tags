@@ -30,10 +30,15 @@ def extract_mjx_tags(file_path: str):
 
 
 if __name__ == "__main__":
+    # /home/nova/work/InstaQP-MVP/mathjax-tags/data/mjx-data-1.html
 
-    base_path: str = "/home/nova/work/MathJax-src/ts/"
-    dir_path: str = "output/chtml/Wrappers/"
-    file_name: str = "maction.ts"
+    base_path: str = "/home/nova/work/InstaQP-MVP/mathjax-tags"
+    dir_path: str = "data"
+    file_name: str = "mjx-data-1.html"
+
+    # base_path: str = "/home/nova/work/MathJax-src/ts/"
+    # dir_path: str = "output/chtml/Wrappers/"
+    # file_name: str = "maction.ts"
 
     # Construct the file path
     directory_path: str = os.path.join(base_path, dir_path)
